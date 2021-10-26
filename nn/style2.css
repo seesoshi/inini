@@ -1,0 +1,17 @@
+#text{
+	font-family: "Bahnschrift Light";
+	font-size: 50px;
+}
+
+#button2 {
+  /*background: url("img/6.jpg");
+  border: none;*/
+  background: #dddad0
+  -webkit-border-radius: 5px;
+  text-align: center;
+  color: #464131;
+  font-family: "Bahnschrift Light";
+  font-size: 23px;
+  height: 50px; 
+  width:200px;
+}
