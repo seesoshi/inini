@@ -1,0 +1,21 @@
+body {
+	background: url(img2/back.png);
+	background-size: 100%; 
+}
+#backImg{
+	
+}
+#carpet {
+	margin:auto;
+	margin-top:100px;
+	padding-bottom:25px;
+	background:#bd7878;
+	width:40%;
+	height:445px;
+	color: #ffe6df;
+	border:3px solid #f19b7a; 
+	border-style: dashed;
+	font-family: "Candara Light";
+	background: url(img2/bedroom.jpg);
+	background-size: 100%; 
+}

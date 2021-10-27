@@ -1,8 +1,11 @@
 #text{
 	font-family: "Bahnschrift Light";
-	font-size: 50px;
+	font-size: 30px;
 }
-
+body {
+	background: url(img2/back.png);
+	background-size: cover;
+}
 #button2 {
   /*background: url("img/6.jpg");
   border: none;*/
@@ -11,7 +14,18 @@
   text-align: center;
   color: #464131;
   font-family: "Bahnschrift Light";
-  font-size: 23px;
-  height: 50px; 
+  font-size: 13px;
+  height: 20px; 
+  width:100px;
+}
+#text2 {
+	font-family: "Bahnschrift Light";
+	font-size: 30px;
+	text-align:center;
+}
+#button3 {
+	font-family: "Bahnschrift Light";
+	height: 40px; 
   width:200px;
+	font-size: 16px;
 }
