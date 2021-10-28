@@ -49,6 +49,7 @@ body {
 	border-style: dashed;
 	background: url(backfonts/14.jpg);
 	-webkit-border-radius: 8px;
+	background: #c3783b;
 }
 
 #carpet2 {
@@ -61,6 +62,7 @@ body {
 	border-style: dashed;
 	background: url(backfonts/14.jpg);
 	-webkit-border-radius: 8px;
+	background: #c3783b;
 }
 
 #carpet3 {
@@ -74,9 +76,10 @@ body {
 	background: url(backfonts/11.jpg);
 	background-size: 100%; 
 	-webkit-border-radius: 8px;
+	background: #ddae73;
 }
 #chatname {
-	color:#ffffff;
+	color:#442626;
 	font-family: "Candara Light";
 	text-align: center;
 	font-size: 20px;
