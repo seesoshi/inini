@@ -1,21 +1,130 @@
 body {
-	background: url(img2/back.png);
+	background: url(img/3.jpg);
 	background-size: 100%; 
 }
 #backImg{
 	
 }
+.block1 {
+	width:1000px; 
+	height:580px;	
+	position:relative; 
+	top:20px; 
+	left:175px; 
+	border: 1px solid black; 
+	background: url(backfonts/1.jpg);
+	margin-bottom:55px;
+}
+#leftcarpet {
+	position:absolute; 
+	bottom:10px; 
+	left:10px; 
+}
+#chatbox {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	background:#fff;
+	height:370px;
+	width:430px;
+	border:1px solid #ACD8F0;
+	overflow:auto; 
+	margin-top:20px;
+	}
+#frm {
+	position:absolute; 
+	left: 20px;
+}
+#usermg {
+	width:450px;
+}
+#carpet1 {
+	width: 200px; 
+	height:530px; 
+	position:absolute; 
+	top:15px; 
+	left:20px; 
+	border: 1px white; 
+	border-style: dashed;
+	background: url(backfonts/14.jpg);
+	-webkit-border-radius: 8px;
+}
+
+#carpet2 {
+	width: 200px; 
+	height:530px; 
+	position:absolute; 
+	top:15px; 
+	right:20px; 
+	border: 1px white; 
+	border-style: dashed;
+	background: url(backfonts/14.jpg);
+	-webkit-border-radius: 8px;
+}
+
+#carpet3 {
+	width: 500px; 
+	height:530px;  
+	position:absolute; 
+	top:15px; 
+	left:250px; 
+	border: 1px white; 
+	border-style: dashed;
+	background: url(backfonts/11.jpg);
+	background-size: 100%; 
+	-webkit-border-radius: 8px;
+}
+#chatname {
+	color:#ffffff;
+	font-family: "Candara Light";
+	text-align: center;
+	font-size: 20px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
 #carpet {
-	margin:auto;
-	margin-top:100px;
+	margin:0 auto;
+	margin-top:55px;
+	background:#bd7878;
+	width:40%;
+	height:465px;
+	color: #032028;
+	border: 0px; 
+	border-style: dashed;
+	font-family: "Candara Light";
+	background: url(backfonts/11.jpg);
+	background-size: 100%; 
+	-webkit-border-radius: 5px;
+	text-indent:25px;
+}
+
+#button4 {
+	margin-left:15px;
+	font-family: "Bahnschrift Light";
+	height: 40px; 
+  width:100px;
+	font-size: 16px;
+	float:left;
+	margin-right:50px;
+	float:left;
+}
+
+#rightpos {
+	float:left;
+	width:40%;
+	height:465px;
+	margin:0 auto;
+	margin:0 auto;
+	margin-top:55px;
 	padding-bottom:25px;
 	background:#bd7878;
 	width:40%;
-	height:445px;
+	height:465px;
 	color: #ffe6df;
 	border:3px solid #f19b7a; 
 	border-style: dashed;
 	font-family: "Candara Light";
 	background: url(img2/bedroom.jpg);
-	background-size: 100%; 
+	background-size: 100%;
 }

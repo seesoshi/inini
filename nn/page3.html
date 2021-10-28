@@ -5,11 +5,37 @@
   <link rel="stylesheet" href="style3.css"/>
   </head>
   <body>
-  <!--<img id="backImg" src="img2/back.png"/>-->
-  <div id="carpet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae tortor condimentum lacinia quis. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Nunc consequat interdum varius sit amet mattis vulputate enim. Diam vulputate ut pharetra sit amet. Facilisis volutpat est velit egestas dui id ornare. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Id velit ut tortor pretium viverra suspendisse potenti. Et odio pellentesque diam volutpat commodo sed. Amet dictum sit amet justo donec enim. Donec enim diam vulputate ut pharetra. Scelerisque eleifend donec pretium vulputate sapien.</div>
-  <div id="left carpet">see smth?</div>
-  <div id="right carpet">this is you
-  <img id="avatar" src="avatars/2x (7).gif"/>
+  <a href='page2.html' target='_self'>
+	<button id="button4" type="submit">Вернуться</button>
+	</a>
+  <!--<img id="backImg" src="img2/back.png"/>
+  <div class="block1"><div id="carpet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet massa vitae tortor condimentum lacinia quis. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Nunc consequat interdum varius sit amet mattis vulputate enim. Diam vulputate ut pharetra sit amet. Facilisis volutpat est velit egestas dui id ornare. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Id velit ut tortor pretium viverra suspendisse potenti. Et odio pellentesque diam volutpat commodo sed. Amet dictum sit amet justo donec enim. Donec enim diam vulputate ut pharetra. Scelerisque eleifend donec pretium vulputate sapien.</div>
+  <div id="righpos"> america </div>-->
+  <div class="block1">
+  <!--<script type="text/javascript">
+	  var images = ['backfonts/1.jpg', 'backfonts/2.jpg','backfonts/3.jpg', 'backfonts/4.jpg', 'backfonts/6.jpg','backfonts/7.jpg', 'backfonts/8.jpg','backfonts/9.jpg'];
+document.getElementsByClassName('block1')[0].style.background ='url(' + images[Math.floor(Math.random() * images.length)] + ')';
+	</script>-->
+  <div id="carpet1">FIRST ELEMENT</div>
+  <!-- элемент имеет относительное позиционирование и смещён на 20px вверх и влево -->  
+  <div id="carpet2">SECOND ELEMENT</div>
+  <div id="carpet3">
+  <p id="chatname">Secret-chat</p>
+  <div id="chatbox"></div>
+  <form id="frm" name="message" action="">
+		<input id="usermg" name="usermsg" type="text" id="usermsg" size="63" />
+		<input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+	</form></div>
   </div>
+  <div id="leftcarpet">
+  <p>see smth?</p>
+  <label>this is you</label>
+  <script type="text/javascript">
+
+	  var images = ['avatars/1.gif', 'avatars/2.gif','avatars/3.gif','avatars/4.gif','avatars/5.gif','avatars/6.gif','avatars/7.gif','avatars/6.gif','avatars/7.gif','avatars/3.gif','avatars/5.gif','avatars/6.gif','avatars/6.gif','avatars/6.gif'];
+	  document.write ("<img src="+images[Math.floor(Math.random() * images.length)]+">");
+	</script>
+	</div>
+  </p>
   </body>
 </html>
