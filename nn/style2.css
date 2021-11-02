@@ -3,8 +3,44 @@
 	font-size: 30px;
 }
 body {
-	background: url(img2/back.png);
+	background: #eaebf1;
 	background-size: cover;
+}
+#text2 {
+	font-family: "Bahnschrift Light";
+	font-size: 30px;
+	text-align:center;
+	position:center;
+	
+}
+.blocks {
+	height:150px;
+	width:80%; 
+	border: 0px; 
+	background: url(backfonts/6.jpg);
+	background-size: cover;
+	-webkit-border-radius: 8px;
+	margin-top:20px;
+}
+#block1 {
+
+}
+#block2 {
+}
+#block3 {
+}
+#block4 {
+}
+#block5 {
+}
+#text-anketa {
+	color:#442626;
+	font-family: "Candara Light";
+	font-size: 20px;
+	display: inline-block;
+	left:0px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 #button2 {
   /*background: url("img/6.jpg");
@@ -18,14 +54,10 @@ body {
   height: 20px; 
   width:100px;
 }
-#text2 {
-	font-family: "Bahnschrift Light";
-	font-size: 30px;
-	text-align:center;
-}
 #button3 {
 	font-family: "Bahnschrift Light";
 	height: 40px; 
   width:200px;
 	font-size: 16px;
+	display: inline-block;
 }
