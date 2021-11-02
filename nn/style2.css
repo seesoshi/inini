@@ -18,6 +18,7 @@ body {
 	font-size: 20px;
 	text-align:center;
 	position:center;
+	width:90%;
 }
 #common-text2{
 	font-family: "Bahnschrift Light";
@@ -26,12 +27,15 @@ body {
 	position:center;
 	font-style:italic;
 	font-weight:lighter;
+	margin-top:20px;
+	width:80%;
 }
-#text3{
+#common-text3{
 	font-family: "Constantia";
 	font-weight:bold;
 	letter-spacing:-0.5px;
 	font-size:25px;
+	margin-top:20px;
 }
 .blocks {
 	height:150px;
