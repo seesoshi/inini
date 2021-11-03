@@ -3,53 +3,83 @@
 	font-size: 30px;
 }
 body {
-	background: #eaebf1;
+	background: linear-gradient(160deg, #ffefe7, #ffffff);
+	/* #5a1e1e, #ff833a;135deg, #480505, #db4b06);45deg, #000000, #db4b06);*/
 	background-size: cover;
+}
+.main-block {
+	background: url(backfonts/18.jpg);
+	background-size: cover;
+	background-position:100px 415px;
+	color:#ffffff;
+	height:400px;
 }
 #text2 {
 	font-family: "Bahnschrift Light";
-	font-size: 30px;
+	font-size: 35px;
 	text-align:center;
 	position:center;
 	letter-spacing:5px;
+	margin-top:30px;
+	position:relative;
+	top:75px;
 }
 #common-text1{
+	font-family: "Bahnschrift Light";
+	font-size: 25px;
+	text-align:center;
+	position:center;
+	position:relative;
+	top:85px;
+	width:90%;
+	weight:2px;
+}
+#common-text2{
 	font-family: "Bahnschrift Light";
 	font-size: 20px;
 	text-align:center;
 	position:center;
-	width:90%;
-}
-#common-text2{
-	font-family: "Bahnschrift Light";
-	font-size: 15px;
-	text-align:center;
-	position:center;
 	font-style:italic;
 	font-weight:lighter;
-	margin-top:20px;
+	position:relative;
+	margin-top:70px;
+	top:40px;
 	width:80%;
+	weight:1px;
 }
 #common-text3{
 	font-family: "Constantia";
 	font-weight:bold;
 	letter-spacing:-0.5px;
-	font-size:25px;
-	margin-top:20px;
+	font-size:30px;
+	margin-top:30px;
+	color: #485662;
+	background: #ebe2fb;
+	width:95%;
 }
 .blocks {
-	height:150px;
-	width:70%; 
+	height:300px;
+	width:95%; 
 	border: 0px; 
 	background: url(backfonts/6.jpg);
+	background-position:0px 900px;
 	background-size: cover;
-	-webkit-border-radius: 8px;
+	-webkit-border-radius: 1px;
+	position:relative;
 	margin-top:20px;
 }
 #block1 {
-
+	background: linear-gradient(160deg, #f1c8b4, #a76767);
 }
 #block2 {
+	height:100px;
+	background: #ebe2fb;
+}
+#button4 {
+	position:relative;
+	display: inline-block;
+	top:-120px;
+	left:-430px;
 }
 #block3 {
 }
@@ -68,25 +98,44 @@ body {
 	margin-top:10px;
 	margin-bottom:10px;
 }
+.text-desc:first-letter {
+	font-size:200%;
+}
 #text-anketa {
-	
+	position:relative;
+	left:-300px;
+	top:8px;
+	width:200px;
+	font-size:25px;
+}
+#text-faq {
+	position:relative;
+	left:120px;
+	top:-10px;
+	width:800px;
+	font-size:25px;
+	color:#484e60;
+}
+.buttons{
+	  background: #dddad0
+  -webkit-border-radius: 5px;
+  text-align: center;
+  color: #464131;
+	font-family: "Bahnschrift Light";
+	height: 40px; 
+  width:200px;
+	font-size: 16px;	
 }
 #button2 {
   /*background: url("img/6.jpg");
   border: none;*/
-  background: #dddad0
-  -webkit-border-radius: 5px;
-  text-align: center;
-  color: #464131;
-  font-family: "Bahnschrift Light";
   font-size: 13px;
   height: 20px; 
   width:100px;
 }
 #button3 {
-	font-family: "Bahnschrift Light";
-	height: 40px; 
-  width:200px;
-	font-size: 16px;
+	position:relative;
 	display: inline-block;
+	left:-300px;
+	top:12px;
 }
